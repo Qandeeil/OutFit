@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+                                    /*Start Section-1*/
+.section-1 nav{
+  background-color: #4C454C;
+  text-align: center;
+}
+.section-1 li{
+  display: inline-block;
+  padding: 18px;
+}
+.section-1 a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.section-1 a:hover{
+  color: #ED4949;
+  transition: .5s;
+}
+                                    /*End Section-1*/
+
+                                    /*Start Section-2*/
+.section-2{
+  position: relative;
+  background-image: url("../images-background/BackgroundContact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 94.5vh;
+}
+.section-2 header{
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: white;
+}
+.section-2 header h1{
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+}
+.section-2 header p{
+  margin-top: 13px;
+  letter-spacing: .1em;
+}
+.section-2 .allInput{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  border: 5px transparent solid;
+  border-radius: 10px;
+  width: 50%;
+  height: 55%;
+  background: rgba(39, 37, 32, 0.59);
+  box-shadow: 0 0 30px 8px rgba(177, 100, 73, 0.69);
+}
+.section-2 .allInput h1{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 3%;
+}
+.section-2 .allInput .input{
+  margin-top: 7%;
+}
+.section-2 .allInput .input input,textarea{
+  display: block;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 15px;
+  height: 37px;
+  width: 50%;
+  border-radius: 15px;
+  outline: none;
+}
+.section-2 .allInput .input textarea{
+  height: 100px;
+}
+#Send{
+  height: 43px;
+}
+#Send:hover{
+  background: transparent;
+  transition: .4s;
+}
+                              /*End Section-2*/
+
+                              /*Start Section-3*/
+.section-3 p{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ED4842;
+  color: white;
+}
+.section-3 p span{
+  font-family: 'Lobster', cursive;
+  font-size: 23px;
+}
+                              /*End Section-3*/
